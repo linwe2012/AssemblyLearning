@@ -8,7 +8,7 @@ It can be used in such ways:
 
 - `_ABC(arg1, arg2)`  which will behave like a function, which returns the result if possible.
 
-  note that this is only available with GNUC cuz it use its xtension `({...})`, which is not allowed in MSC. And I can't find a substitue.
+  note that this is only available with GNUC cuz it uses its xtension `({...})`, which is not allowed in MSC. And I can't find a substitue.
 
 - `ABC(arg1, arg2)` will behave like an actual asm cmd, e.g. `RORB(a, 2)` will make last byte of `a` rotate 2 bits.
 
